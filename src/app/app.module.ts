@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SectionWhatYouWillLearnComponent } from './section-what-you-will-learn/section-what-you-will-learn.component';
+import { SectionPastStudentsComponent } from './section-past-students/section-past-students.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SectionWhatYouWillLearnComponent,
+    SectionPastStudentsComponent
   ],
   imports: [
     BrowserModule,
