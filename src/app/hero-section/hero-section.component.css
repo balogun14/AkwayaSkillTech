@@ -1,0 +1,74 @@
+#container {
+    padding-top: 150px;
+}
+
+
+
+#title {
+    color: var(--foundation-blue-normal, #0036D2);
+    font-size: 96px;
+    font-family: Oswald;
+    line-height: 97.9%;
+    text-transform: uppercase;
+
+}
+
+.role {
+    color: black;
+    font-size: 26px;
+    font-family: Montserrat;
+    font-weight: 200;
+}
+
+
+.benefits {
+    color: var(--foundation-blue-darker);
+    font-size: 19px;
+    font-family: Montserrat;
+    line-height: 170.4%;
+}
+
+
+
+.deadline {
+    color: var(--black);
+    font-size: 20px;
+    font-family: Montserrat;
+    line-height: 170.4%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#dead1 {
+    background-color: var(--light-orange);
+}
+
+#dead2 {
+    background: var(--foundation-green-normal);
+}
+
+
+
+
+.hours {
+    width: 60px;
+    height: 50px;
+    flex-basis: 26.7%;
+    color: var(--foundation-blue-darker);
+}
+
+.minutes {
+    width: 60px;
+    height: 50px;
+    flex-basis: 26.7%;
+    color: var(--foundation-blue-darker);
+
+
+}
+
+.seconds {
+    width: 60px;
+    height: 50px;
+    flex-basis: 26.7%;
+    color: var(--foundation-blue-darker);
+}
