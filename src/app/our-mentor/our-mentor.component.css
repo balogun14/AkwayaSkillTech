@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+}
+
+.bgColor {
+    background: var(--bg-blue);
+}
+
+.mentor {
+    font-family: Oswald
+}
+
+.name {
+    font-family: Oswald;
+    color: var(--foundation-blue);
+}
+
+.work {
+    color: var(--foundation-blue-darker, #00134A);
+    font-family: Montserrat;
+}
+
+.mentors {
+    color: var(--foundation-blue);
+    font-family: Oswald;
+}
+
+.skill {
+    color: var(--foundation-blue-darker);
+    font-family: Montserrat;
+
+}
