@@ -1,0 +1,82 @@
+.faq-bg {
+  background-color: var(--foundation-green-light);
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+
+.faq-bg h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 46.99px;
+  color: var(--foundation-blue);
+  font-family: "Oswald", sans-serif;
+}
+
+.faq-bg p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34.08px;
+  color: var(--foundation-blue-darker);
+  font-family: "Montserrat", sans-serif;
+  
+}
+.accordion {
+  --bs-accordion-border-width: 0;
+  --bs-accordion-border-radius: 0;
+}
+.accordion-button {
+  background-color: transparent;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.accordion-item {
+  background-color: transparent;
+  margin: 1rem 0;
+  border-bottom: 1px solid var(--foundation-blue-darker);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button{
+   
+  padding: 1.5rem 3rem 1.5rem 1rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--foundation-blue);
+
+}
+
+.accordion-body{
+  padding: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--foundation-blue-darker);
+  padding-bottom: 30px;
+}
+
+button.accordion-button::after {
+  content: none;
+}
+
+/* Adjust the layout to place the Font Awesome icon on the right */
+button.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* If you want to add some space between the text and the icon */
+button.accordion-button .fas {
+  margin-left: 10px;
+  color: #faaf40;
+}

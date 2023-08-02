@@ -1,0 +1,19 @@
+.plans{
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+.plans h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 46.99px;
+  color: var(--foundation-blue);
+  font-family: "Oswald", sans-serif;
+}
+
+.plans p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34.08px;
+  color: var(--foundation-blue-darker);
+  font-family: "Montserrat", sans-serif;
+}

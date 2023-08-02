@@ -8,6 +8,9 @@ import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { SectionWhatYouWillLearnComponent } from './section-what-you-will-learn/section-what-you-will-learn.component';
 import { SectionPastStudentsComponent } from './section-past-students/section-past-students.component';
 import { OurMentorComponent } from './our-mentor/our-mentor.component';
+import { FaqComponent } from './faq/faq.component';
+import { PlansComponent } from './plans/plans.component';
+import { PlanCardComponent } from './plans/plan-card/plan-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { OurMentorComponent } from './our-mentor/our-mentor.component';
     HeroSectionComponent,
     SectionWhatYouWillLearnComponent,
     SectionPastStudentsComponent,
-    OurMentorComponent
+    OurMentorComponent,
+    FaqComponent,
+    PlansComponent,
+    PlanCardComponent
   ],
   imports: [
     BrowserModule,
