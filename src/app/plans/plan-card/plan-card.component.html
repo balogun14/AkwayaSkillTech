@@ -1,0 +1,16 @@
+    <div class="card " [ngStyle]="{ 'background-color': plan.backgroundColor }" >
+      <div class="card-body">
+        <h5 class="card-title text-uppercase  mb-3">{{ plan.label }}</h5>
+        <ul class="mb-3">
+          <li class="feature " *ngFor="let feature of plan.features">
+            <span><i class="fa fa-check-circle"></i> </span>
+            {{ feature }}
+          </li>
+        </ul>
+        <a [href]="plan.apply" class="text-uppercase" >
+          apply now <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+        </a>
+      </div>
+    </div>
+
+
