@@ -38,7 +38,8 @@ section {
     width: 110%;
   }
   .curriculum .first_section .first_inner h5 {
-    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
   }
   .curriculum .second_section {
     background-color: white;
@@ -50,7 +51,8 @@ section {
     width: 100%;
   }
   .curriculum .second_section h2, h6 {
-    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
   }
   .curriculum .second_section p {
     font-size: 17px;
