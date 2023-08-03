@@ -20,7 +20,6 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     SectionWhatYouWillLearnComponent,
     SectionPastStudentsComponent,
     OurMentorComponent,
-    faqSection,
     FaqComponent,
     PlansComponent,
     PlanCardComponent,
