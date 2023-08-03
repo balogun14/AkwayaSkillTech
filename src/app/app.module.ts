@@ -11,6 +11,7 @@ import { OurMentorComponent } from './our-mentor/our-mentor.component';
 import { FaqComponent } from './faq/faq.component';
 import { PlansComponent } from './plans/plans.component';
 import { PlanCardComponent } from './plans/plan-card/plan-card.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +20,11 @@ import { PlanCardComponent } from './plans/plan-card/plan-card.component';
     SectionWhatYouWillLearnComponent,
     SectionPastStudentsComponent,
     OurMentorComponent,
+    faqSection,
     FaqComponent,
     PlansComponent,
-    PlanCardComponent
+    PlanCardComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
