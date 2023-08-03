@@ -3,6 +3,9 @@
   padding-top: 47px;
   padding-bottom: 47px;
 }
+.container {
+  max-width: 985px;
+}
 
 .faq-bg h1 {
   font-size: 48px;
@@ -18,7 +21,7 @@
   line-height: 34.08px;
   color: var(--foundation-blue-darker);
   font-family: "Montserrat", sans-serif;
-  
+  margin-bottom: 50px;
 }
 .accordion {
   --bs-accordion-border-width: 0;
@@ -39,23 +42,21 @@
 }
 
 .accordion-button:focus {
-    z-index: 3;
-    border-color: transparent;
-    outline: 0;
-    box-shadow: none;
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
 }
 
-.accordion-button{
-   
+.accordion-button {
   padding: 1.5rem 3rem 1.5rem 1rem;
   line-height: 1.25rem;
   font-weight: 700;
   font-size: 25px;
   color: var(--foundation-blue);
-
 }
 
-.accordion-body{
+.accordion-body {
   padding: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
@@ -79,4 +80,33 @@ button.accordion-button {
 button.accordion-button .fas {
   margin-left: 10px;
   color: #faaf40;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .faq-bg h1 {
+    font-size: 30px;
+  }
+
+  .faq-bg p {
+    font-size: 16px;
+  }
+
+  .accordion-button {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .faq-bg p {
+    margin-bottom: 0px;
+  }
+  .accordion-button {
+    padding: 1.5rem 3rem 1.5rem 1rem;
+    font-size: 16px;
+  }
+  .accordion-body {
+    padding: 0rem 3rem 1.5rem 1rem;
+    font-size: 14px;
+  }
 }
